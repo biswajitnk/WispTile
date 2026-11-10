@@ -1,0 +1,15 @@
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+.DS_Store
+extracted_screens/
+unpacked_screens/
+dist/
+*.dmg
+*.zip
+
+# Local design exports and scratch assets (not part of the source)
+UI/
+Cute Lavender Little Ghost Logo.png

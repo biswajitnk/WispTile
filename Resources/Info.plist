@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>WispTileApp</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.wisptile.WispTile</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>WispTile</string>
+    <key>CFBundleDisplayName</key>
+    <string>WispTile</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2026 WispTile contributors. Released under the MIT License.</string>
+    
+    <!-- User Privacy & Security Disclosures -->
+    <key>NSAccessibilityUsageDescription</key>
+    <string>WispTile requires Accessibility permission to detect, tile, and reposition windows according to your saved project layouts.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>WispTile uses Apple Events to reopen folders in your code editors, Finder, and terminals.</string>
+</dict>
+</plist>

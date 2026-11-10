@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation & Support — WispTile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <div class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <line x1="12" y1="3" x2="12" y2="21"/>
+            <line x1="12" y1="12" x2="21" y2="12"/>
+          </svg>
+        </div>
+        <span>WispTile</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="support.html" style="color: #fff;">Support & Docs</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="index.html#download" class="btn-nav">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main style="max-width: 860px; margin: 60px auto 100px; padding: 0 24px;">
+    <h1 style="font-size: 42px; font-weight: 800; margin-bottom: 12px;">Documentation & Help Center</h1>
+    <p style="color: var(--text-secondary); font-size: 18px; margin-bottom: 48px;">Everything you need to know about setting up, tiling, and restoring projects with WispTile.</p>
+
+    <!-- Section 1: First Run & Permissions -->
+    <section style="margin-bottom: 48px;">
+      <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 16px;">1. First Run & Accessibility Permissions</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 16px; line-height: 1.6;">
+        macOS protects window management behind <strong>Accessibility permissions</strong>. WispTile requires this permission strictly to read window coordinates and move windows to their designated zones. WispTile never reads your screen pixels or document text.
+      </p>
+      <div style="background: var(--bg-card); border: 1px solid var(--bg-card-border); border-radius: 12px; padding: 20px;">
+        <ol style="padding-left: 20px; color: #E2E2EA; display: flex; flex-direction: column; gap: 10px;">
+          <li>Open <strong>System Settings</strong> on your Mac.</li>
+          <li>Navigate to <strong>Privacy & Security → Accessibility</strong>.</li>
+          <li>Toggle on <strong>WispTile</strong>.</li>
+          <li>If WispTile does not appear, click the <strong>+</strong> button and select WispTile from your Applications folder.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Section 2: Shortcuts -->
+    <section style="margin-bottom: 48px;">
+      <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 16px;">2. Default Keyboard Shortcuts</h2>
+      <div style="background: var(--bg-card); border: 1px solid var(--bg-card-border); border-radius: 12px; overflow: hidden;">
+        <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px;">
+          <thead style="background: rgba(255, 255, 255, 0.04); border-bottom: 1px solid var(--bg-card-border);">
+            <tr>
+              <th style="padding: 12px 20px;">Action</th>
+              <th style="padding: 12px 20px;">Default Shortcut</th>
+              <th style="padding: 12px 20px;">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--bg-card-border);">
+              <td style="padding: 12px 20px; font-weight: 600;">Quick Switcher</td>
+              <td style="padding: 12px 20px;"><code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px;">⌥Space</code></td>
+              <td style="padding: 12px 20px; color: var(--text-secondary);">Open floating project switcher palette</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--bg-card-border);">
+              <td style="padding: 12px 20px; font-weight: 600;">Restore Project 1..9</td>
+              <td style="padding: 12px 20px;"><code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px;">⌥1 .. ⌥9</code></td>
+              <td style="padding: 12px 20px; color: var(--text-secondary);">Directly restore assigned project workspace</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--bg-card-border);">
+              <td style="padding: 12px 20px; font-weight: 600;">Tile Left Half</td>
+              <td style="padding: 12px 20px;"><code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px;">⌥⌘←</code></td>
+              <td style="padding: 12px 20px; color: var(--text-secondary);">Tile active window to the left 50% zone</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--bg-card-border);">
+              <td style="padding: 12px 20px; font-weight: 600;">Tile Right Half</td>
+              <td style="padding: 12px 20px;"><code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px;">⌥⌘→</code></td>
+              <td style="padding: 12px 20px; color: var(--text-secondary);">Tile active window to the right 50% zone</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 20px; font-weight: 600;">Capture Current Desktop</td>
+              <td style="padding: 12px 20px;"><code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px;">⌥⇧C</code></td>
+              <td style="padding: 12px 20px; color: var(--text-secondary);">Save open windows into a new project</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Section 3: Multi-Monitor & Notch -->
+    <section style="margin-bottom: 48px;">
+      <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 16px;">3. Multi-Monitor & Notch Adaptation</h2>
+      <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 16px;">
+        When you unplug your external monitor at the end of the day, WispTile automatically redistributes your open windows to your built-in MacBook screen without piling them on top of each other.
+      </p>
+      <p style="color: var(--text-secondary); line-height: 1.6;">
+        On 14-inch and 16-inch MacBooks with a notch, WispTile reads macOS <code>safeAreaInsets</code> so windows will never intrude behind the physical camera cutout or menu bar.
+      </p>
+    </section>
+
+    <!-- Section 4: Diagnostics & Support -->
+    <section style="margin-bottom: 48px;">
+      <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 16px;">4. In-App Diagnostics & Privacy</h2>
+      <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 16px;">
+        Need to report an issue? Open <strong>WispTile Settings → Privacy and Data → Send diagnostics to support</strong>.
+      </p>
+      <p style="color: var(--text-secondary); line-height: 1.6;">
+        WispTile generates a 100% sanitized diagnostic bundle showing display topology, compatibility, and error codes. Personal usernames, emails, window contents, and keys are automatically redacted.
+      </p>
+    </section>
+
+    <!-- Section 5: Email Support -->
+    <section>
+      <div style="background: rgba(108, 92, 231, 0.1); border: 1px solid rgba(108, 92, 231, 0.3); border-radius: 12px; padding: 24px; text-align: center;">
+        <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 8px;">Need Personalized Assistance?</h3>
+        <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 16px;">Ask questions, report bugs or suggest features on GitHub. Multi-monitor setups and custom templates are welcome topics.</p>
+        <a href="https://github.com/biswajitnk/WispTile/issues" class="btn-primary" style="display: inline-flex;">Open an Issue on GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div>© 2026 WispTile. Built with Swift &amp; AppKit for macOS.</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="updates/appcast.xml">Appcast Feed</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
